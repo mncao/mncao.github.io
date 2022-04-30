@@ -1,0 +1,262 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: white;
+    font-family: 'Lato';
+    color: #293241;
+    margin: 0px;
+}
+
+.nav {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    font-size: large;
+}
+
+.link {
+    background-color: #F9BEF9;
+    margin: 0px 30px;
+    padding: 10px 30px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: large;
+    max-width: 100%;
+    color: #F8FBF2;
+}
+
+link:hover {
+    background-color: #fd8aec;
+    cursor: pointer;
+}
+
+a:link {
+    text-decoration: none;
+    display: inline-block;
+    color: #f8fbf2;
+}
+
+a:hover { 
+    color: #648FFA;
+}
+
+.btn {
+    background-color: #F9BEF9;
+    color: #F8FBF2;
+    font-size: x-large;
+    text-align: center;
+    cursor: pointer;
+    border-color: #F9BEF9;
+    margin: 5px;
+    padding: 10px 30px;
+    display: inline-block;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.btn:hover {
+    background-color: #f8fbf2;
+    color: #fd8aec;
+    text-align: center;
+    cursor: pointer;
+    border-color: #fd8aec;
+    margin: 5px;
+    padding: 10px 30px;
+    display: inline-block;
+    border-radius: 5px;
+}
+.center {
+    text-align: center;
+}
+
+header {
+    padding-top: 5px;
+    padding-left: 20px;
+    font-size: 2.5rem;
+    margin: 1rem 0;
+    font-family: 'Abril Fatface', cursive;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: 'Abril Fatface', cursive;
+    padding: 0em;
+    text-align: center;
+    max-width: 100%;
+    background-color: #2363ba;
+    color: #F8FBF2;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 35px;
+    font-family: 'Lato';
+    color:#2363ba;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 35px;
+    font-family: 'Abril Fatface', cursive;
+    color:#2363ba;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h4 {
+    font-size: 25px;
+    font-family: 'Abril Fatface', cursive;
+    color: #2363ba;
+    text-align: left;
+}
+
+.text {
+    font-size: 20px;
+    font-family: 'Lato';
+    margin: 30px;
+}
+.lato {
+    font-family: 'Lato';
+    font-size: 20px;
+}
+
+.grid-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 60px 1000px 150px;
+    max-width: 100%;
+}
+
+fieldset {
+    margin-bottom: 0px;
+    border: #293241;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+  background: #2363ba;
+  border: 2px solid transparent;
+  font-size: 16px;
+  text-align: left;
+  height: auto;
+  margin: 5px;
+  outline: 0;
+  padding: 15px;
+  width: 90%;
+  background-color: #f8fbf2;
+  color: #293241;
+  /* box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset; */
+  margin-bottom: 30px;
+  transition: all 350ms;
+}
+
+input:hover,
+input:focus,
+textarea:hover,
+textarea:focus {
+  border-color: #fd8aec;
+}
+
+label {
+    display: block;
+    margin-left: 5px;
+    margin-bottom: 0px;
+    color: #f8fbf2;
+    font-size: 15px;
+    text-align: left;
+  }
+
+form {
+    max-width: 40%;
+    margin: 10px auto;
+    padding: 20px 20px 20px 20px;
+    background: #2363ba;
+    border-radius: 30px;
+}
+
+.box {
+    padding: 0em;
+    text-align: center;
+    background-color: #efefef;
+    width: 100%;
+}
+
+.one {
+    background: #76cefe;
+    border: 0;
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+
+.two {
+    background: #F8FBF2;
+    border: 0;
+    grid-column: 1/4;
+    grid-row: 2/3;
+}
+
+.three {
+    background: #F8FBF2;
+    border: 0;
+    grid-column: 1/4;
+    grid-row: 3/4;
+}
+
+.four {
+    background: #76cefe;
+    border: 0;
+    grid-column: 2/4;
+    grid-row: 4/5;
+}
+
+.five {
+    background-color: #76cefe;
+    border: 0;
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+
+.img {
+    height: 100%;
+}
+
+.img2 {
+    max-width: 60%;
+    height: auto;
+}
+
+.img3 {
+    max-width: 30%;
+    height: auto;
+    margin: 10px;
+}
+
+.dates {
+    text-align: center;
+    color: #F8FBF2;
+    background: #2363ba;
+    margin: 30px 30px;
+    padding: 10px 30px;
+    max-width: 20%;
+    font-size: 20px;
+}
+
+.dates-details {
+    text-align: left;
+    display: inline-block;
+}
+
+@media screen and (max-width: 600px){
+    .nav {
+       max-width: 50%;
+    }
+
+    .link {
+        max-width: 50%;
+    }
+
+
+}
