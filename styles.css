@@ -244,11 +244,6 @@ form {
     font-size: 20px;
 }
 
-.dates-details {
-    text-align: left;
-    display: inline-block;
-}
-
 @media screen and (max-width: 600px){
     .nav {
        max-width: 50%;
