@@ -237,10 +237,10 @@ form {
 .dates {
     text-align: center;
     color: #F8FBF2;
-    background: #2363ba;
+    background:#2363ba;
     margin: 30px 30px;
     padding: 10px 30px;
-    max-width: 20%;
+    max-width: 90%;
     font-size: 20px;
 }
 
